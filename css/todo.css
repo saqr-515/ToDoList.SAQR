@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3 {
+  font-size: 30px;
+}
+div {
+  margin: 5px;
+  padding: 5px;
+}
+.do-it {
+  background-color: antiquewhite;
+  width: 60px;
+  height: 8px;
+  margin-top: -20px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+table th {
+  font-size: 15px;
+  padding: 8px;
+  border-bottom: solid 2px #000000;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  padding-left: 10px;
+  border-bottom: solid 1px #919191;
+}
+.first-th {
+  padding-right: 100px;
+  padding-left: 20px;
+  text-align: center;
+}
+table button {
+  padding-top: 3px;
+  background-color: white;
+}
+button {
+  cursor: pointer;
+}
+.remove,
+.edit,
+.add-task,
+.to-do,
+.complete,
+.in-progress {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(105, 96, 96, 0.164);
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+.add-task {
+  width: auto;
+  margin-left: 85%;
+  background-color: white;
+  color: #98daf3;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: #98daf3;
+  box-shadow: 0px 0px 20px rgba(92, 120, 245, 0.164);
+}
+.to-do,
+.complete,
+.in-progress {
+  width: auto;
+}
+.to-do {
+  color: rgb(59, 54, 54);
+  background-color: white;
+}
+.to-do:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 54, 54);
+}
+.complete {
+  color: rgb(70, 192, 100);
+  background-color: white;
+}
+.complete:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 190, 99);
+}
+.in-progress {
+  color: rgb(222, 236, 96);
+  background-color: white;
+}
+.in-progress:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(222, 236, 96);
+}
+.add-task:hover {
+  color: white;
+  background-color: #98daf3;
+}
+to-do {
+  color: #b82d2d;
+}
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+.svgIcon path {
+  fill: rgb(59, 54, 54);
+  background-color: white;
+}
+.remove:hover {
+  background-color: rgb(59, 54, 54);
+}
+.remove:hover path {
+  fill: white;
+}
+.svg {
+  width: 13px;
+  fill: rgb(98, 149, 226);
+  transition-duration: 0.3s;
+}
+.edit:hover {
+  background-color: rgb(98, 149, 226);
+}
+.edit:hover .svg {
+  fill: white;
+}
